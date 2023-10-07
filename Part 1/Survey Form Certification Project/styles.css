@@ -1,0 +1,19 @@
+h1, p {
+    text-align: center;
+  }
+  
+  body {
+    width: 100%;
+    background-image: url(stockphotoalien.jpg);
+    color: white;
+    font-family: Arial;
+    min-width: 50%;
+  }
+
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
