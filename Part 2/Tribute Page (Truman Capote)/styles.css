@@ -1,0 +1,48 @@
+img {
+    justify-content: center;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 20px;
+  }
+  
+  h1 {
+    background-color: #0f0f0f;
+    color: #ffffff;
+    font-family: Verdana;
+    font-size: 20px;
+    padding: 5px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-weight: bold;
+    color: blue;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  .short-bio {
+    font-family: Verdana;
+    font-size: 12px;
+    padding: 10px;
+  }
+  
+  legend {
+    font-family: Arial;
+    font-weight: bold;
+  }
+  
+  fieldset {
+    padding: 10px
+  }
+  
+  div {
+    margin: 40px;
+  }
+  
+  body {
+    background-color: #ead3c6
+  }
