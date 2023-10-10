@@ -6,6 +6,10 @@ img {
     border-radius: 20px;
   }
   
+.img-div:hover {
+  opacity: 0.5;
+}
+
   h1 {
     background-color: #0f0f0f;
     color: #ffffff;
@@ -44,5 +48,7 @@ img {
   }
   
   body {
-    background-color: #ead3c6
+    width: 50%;
+    margin: 0 auto;
+    background-color: #ead3c6;
   }
