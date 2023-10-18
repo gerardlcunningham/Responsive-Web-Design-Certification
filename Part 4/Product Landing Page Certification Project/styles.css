@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+body {
+    background: rgb(235, 228, 229)
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    margin-top: 0;
+    background: white;
+    top: 0;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#nav-bar {
+    width: 40vw;
+}
+
+#header-img {
+    width: 8rem;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto';
+    font-size: 25px;
+}
+
+.container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.container-1 h1 {
+    font-family: Verdana;
+    font-weight: 700;
+}
+
+.container-1 div {
+    border: 1px solid black;
+    padding: 50px;
+}
+
+.container-1 p {
+    padding: 12px;
+    font-family: Verdana;
+}
+
+.container-2 {
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+    font-size: 25px;
+}
+
+.quotes {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid black;
+    max-width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.quotes li {
+    padding: 20px;
+}
+
+.quotes span {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.button {
+    width: 200px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.button:hover {
+    background-color: rgb(190, 245, 190)
+}
+
+#jointheclub {
+    align-items: center;
+}
+
+.container-2 {
+    border: 1px solid black;
+}
+
+#tea-logo {
+    width: 500px;
+    border-radius: 15px;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 60%;
+    align-items: flex-start;
+    margin: 0 auto;
+    text-align: center;
+    border: 1px solid black;
+    padding-top: 30px;
+}
+
+.container-3 p {
+    padding: 20px;
+}
+
+#main-section {
+    margin-top: 200px;
+}
+
+tea-link1 {
+    background-color: beige;
+    color: black;
+}

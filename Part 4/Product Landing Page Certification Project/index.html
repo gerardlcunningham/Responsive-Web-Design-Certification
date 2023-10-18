@@ -4,48 +4,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/c81fe88430.js" crossorigin="anonymous"></script>
     <title>Tea Haven Monthly</title>
 </head>
 
 <body>
-    <header id="header"><img src="" id="header-img" alt="tea haven monthly logo image goes here">
+    <header id="header"><img src="small-tea-logo.jpg" id="header-img" alt="tea haven monthly logo image goes here">
         <nav id="nav-bar">
             <ul>
-                <li><a href="#link-1" class="nav-link">Join the Club</a></li>
-                <li><a href="#link-2" class="nav-link">About Us</a></li>
-                <li><a href="#link-3" class="nav-link">Tea Brands</a></li>
-                <li><a href="#link-4" class="nav-link">Tea Accessories/a></li>
+                <li><a href="#jointheclub" class="nav-link">Join the Club</a></li>
+                <li><a href="#aboutus" class="nav-link">About Us</a></li>
+                <li><a href="#teaselection" class="nav-link">Tea Selection</a></li>
+                <li><a href="#teaaccessories" class="nav-link">Tea Accessories</a></li>
+                <li><i class="fa-solid fa-magnifying-glass"></i></li>
+                <li><i class="fa-regular fa-user"></i></li>
+                <li><i class="fa-solid fa-cart-shopping"></i></li>
             </ul>
         </nav>
     </header>
-    <section id="link-1">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</p>
-    </section>
-    <section id="link-2">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-            magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-            commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-            nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
-            anim id est laborum.</p>
-    </section>
-    <section id="link-3">
-        <video id="video" width="640" height="360" controls>
-            <source src="path_to_your_video_file.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </section>
-    <section id="link-4">
-        <form for="email" id="form" action="https://www.freecodecamp.com/email-submit">
-            <label>Email: </label>
-            <input type="email" id="email" name="email" placeholder="Please enter your email...">
-            <input type="submit" id="submit">
-        </form>
-    </section>
+    <main id="main-section">
+        <section>
+            <div class="container-1">
+                <div>
+                    <h1>Tea Bliss Delivered Every Month</h1>
+                    <p>Indulge in a curated selection of fine teas, handpicked just for you. Elevate your tea experience
+                        with every sip.</p>
+                    <p><button class="button">Find Your Cup</button></p>
+                    <p><button class="button">Shop Popular Brands</button></p>
+                </div>
+                <div><img src="tea-logo.jpg" id="tea-logo"></div>
+            </div>
+        </section>
+        <section id="jointheclub">
+            <div class="container-2">
+                <p>
+                <form for="email" id="form" action="https://www.freecodecamp.com/email-submit">
+                    <label>Join our mailing list for new product announcements</label>
+                    <p><input type="email" id="email" name="email" placeholder="Please enter your email..."> <input
+                            type="submit" id="submit"></p>
+                </form>
+                </p>
+            </div>
+            <div class="quotes">
+                <ul>
+                    <li>"Tea Haven Monthly has redefined my tea-drinking experience. Each box is a journey through
+                        exquisite flavors and aromas that leaves me craving for more."<br><br><span>The Tea Enthusiast
+                            Magazine</span>
+                    </li>
+                    <li>"Tea Haven Monthly is a tea lover's paradise. The curation of teas is impeccable, offering a
+                        delightful assortment that caters to every taste and preference."<br><br><span>Culinary Delights
+                            Weekly</span>
+                    </li>
+                    <li>"Indulge in the luxury of fine teas delivered to your doorstep with Tea Haven Monthly. It's more
+                        than a subscription; it's a lifestyle upgrade for tea connoisseurs."<br><br><span>Lifestyle
+                            Gazette</span>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="aboutus">
+            <div class="container-3">
+                <div>
+                    <h1>About Us</h1>
+                    <video id="video" width="640" height="360" controls>
+                        <source src="path_to_your_video_file.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                <div>
+                    <p>Welcome to Tea Haven Monthly, your gateway to a world of exquisite teas and unparalleled
+                        relaxation. At Tea Haven Monthly, we're passionate about elevating your tea-drinking experience
+                        to new heights.</p>
+
+                    <p>Established with a vision to blend the finest teas from around the globe into curated monthly
+                        packages, Tea Haven Monthly ensures you receive a carefully curated selection of premium teas
+                        right at your doorstep. Each blend is handpicked to cater to different tastes, preferences, and
+                        moods, promising an exciting journey through the world of tea.</p>
+
+                    <p>Join us on this tea-filled journey and treat yourself to a delightful monthly surprise that will
+                        awaken your senses, calm your mind, and create moments of pure bliss. Subscribe to Tea Haven
+                        Monthly and embrace the tea lifestyle like never before. Cheers to a harmonious blend of taste
+                        and tranquility!</p>
+                </div>
+            </div>
+        </section>
+        <section id="link-3">
+
+        </section>
+        <section id="link-4">
+
+        </section>
+    </main>
 </body>
 
 </html>
