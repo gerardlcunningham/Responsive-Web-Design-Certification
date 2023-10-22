@@ -332,3 +332,12 @@ ul {
     text-decoration: none;
     color: black;
 }
+
+#footer li i {
+    font-size: 25px;
+}
+
+#certification {
+    text-align: center;
+    padding-bottom: 40px;
+}
